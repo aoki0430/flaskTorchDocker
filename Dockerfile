@@ -1,9 +1,8 @@
 FROM python:3.6
 
-ARG project_dir=/projects/
+WORKDIR /app
+ENV FLASK_APP=./app
 
-ADD requirements.txt $project_dir
-
-WORKDIR $project_dir
+COPY ./requirements.txt ./
 
 RUN pip install -r requirements.txt

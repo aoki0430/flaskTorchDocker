@@ -5,3 +5,10 @@ itsdangerous==1.1.0
 Jinja2==2.10.3
 MarkupSafe==1.1.1
 Werkzeug==0.16.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.8.2+cpu
+numpy
+opencv-python
+Pillow
